@@ -1,0 +1,50 @@
+151001	anemia diet therapy
+152001	emotional and mental disorders
+153001	american diabetes association
+154001	high blood pressure
+155001	infectious disease prevention
+156001	food allergy test
+157001	orlistat drug profile
+158001	radiation health effect
+159001	smoking and heart disease
+160001	smoking cessation products
+161001	omega 3 fatty acids
+162001	common medication errors
+163001	Anxiety coping skills
+164001	health benefits of spirulina
+165001	do allergies cause migraines
+166001	ketamine and its potential for abuse
+167001	head and neck cancer
+168001	hiv vaccine phase
+169001	normal lab values
+170001	rheumatoid arthritis prognosis
+171001	breast reduction and lift
+172001	involuntary trembling or quivering
+173001	drug food interaction
+174001	breakfast better student
+175001	Voltaren Emugel 1%
+176001	pelvic inflammatory disease
+177001	breakfast school children
+178001	drug addiction organization
+179001	resevrse insulin ressitance
+180001	sleep apnea syndrome
+181001	marijuana's effects on mental health
+182001	Delayed onset muscle soreness
+183001	what percent of celery is made of water
+184001	antiandrogen therapy for prostate cancer
+185001	chemicals causing prostate cancer
+186001	stem cell hearing loss
+187001	How does smoking cause hypertension?
+188001	caffeine high blood pressure
+189001	long term effects of gonhrrea
+190001	privatization of health care in canada
+191001	liver function test uses
+192001	diabetes mellitus and body fat mass
+193001	health effects of ionized water therapy
+194001	ankle avulsion fracture healing time
+195001	affective treatments for chronic lyme disease
+196001	parkinson's disease + titanium link
+197001	Four month infant running nose
+198001	high protein diet and its human health effects
+199001	why is there a minimum drinking age and what are the consequences of underage drinking?
+200001	feeling of fullness with hiccups with a feeling of a lump in the back of the throat
