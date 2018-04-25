@@ -1,0 +1,352 @@
+<queries>
+	<query>
+		<id> 151001 </id>
+		<en> anemia diet therapy </en>
+		<fr> anémie alimentation thérapie </fr>
+		<de> anämie diet therapie </de>
+		<cz> anémie dietoterapie </cz>
+	</query>
+	<query>
+		<id> 152001 </id>
+		<en> emotional and mental disorders </en>
+		<fr> troubles mentaux et émotionnels </fr>
+		<de> emotionale und psychische störungen </de>
+		<cz> emocionální a duševní poruchy </cz>
+	</query>
+	<query>
+		<id> 153001 </id>
+		<en> american diabetes association </en>
+		<fr> american diabetes association </fr>
+		<de> american diabetes association </de>
+		<cz> american diabetes association </cz>
+	</query>
+	<query>
+		<id> 154001 </id>
+		<en> high blood pressure </en>
+		<fr> hypertension artérielle </fr>
+		<de> hoher blutdruck </de>
+		<cz> vysoký krevní tlak </cz>
+	</query>
+	<query>
+		<id> 155001 </id>
+		<en> infectious disease prevention </en>
+		<fr> prévention des maladies infectieuses </fr>
+		<de> infektionskrankheit prävention </de>
+		<cz> infekční onemocnění prevence </cz>
+	</query>
+	<query>
+		<id> 156001 </id>
+		<en> food allergy test </en>
+		<fr> test d'allergie alimentaire </fr>
+		<de> essen allergietest </de>
+		<cz> test potravinové alergie </cz>
+	</query>
+	<query>
+		<id> 157001 </id>
+		<en> orlistat drug profile </en>
+		<fr> orlistat médicament description </fr>
+		<de> orlistat medikament profil </de>
+		<cz> Orlistat lékový profil </cz>
+	</query>
+	<query>
+		<id> 158001 </id>
+		<en> radiation health effect </en>
+		<fr> radiation santé effet </fr>
+		<de> strahlung gesundheit effekt </de>
+		<cz> záření účinky na zdraví </cz>
+	</query>
+	<query>
+		<id> 159001 </id>
+		<en> smoking and heart disease </en>
+		<fr> tabagisme et maladies du coeur </fr>
+		<de> rauchen und herzerkrankungen </de>
+		<cz> kouření a onemocnění srdce </cz>
+	</query>
+	<query>
+		<id> 160001 </id>
+		<en> smoking cessation products </en>
+		<fr> arrêt du tabac produits </fr>
+		<de> rauchentwöhnung produkte </de>
+		<cz> výrobky pro odvykání kouření </cz>
+	</query>
+	<query>
+		<id> 161001 </id>
+		<en> omega 3 fatty acids </en>
+		<fr> Omega 3 acides gras </fr>
+		<de> omege 3 fettsäuren </de>
+		<cz> omega 3 mastné kyseliny </cz>
+	</query>
+	<query>
+		<id> 162001 </id>
+		<en> common medication errors </en>
+		<fr> Erreurs de traitement communes </fr>
+		<de> häufige medikationsfehler </de>
+		<cz> běžné chyby v medikaci </cz>
+	</query>
+	<query>
+		<id> 163001 </id>
+		<en> Anxiety coping skills </en>
+		<fr> anxiété gestion </fr>
+		<de> angst bewältigungsstrategien </de>
+		<cz> strategie zdolávání strachu </cz>
+	</query>
+	<query>
+		<id> 164001 </id>
+		<en> health benefits of spirulina </en>
+		<fr> bénéfices sur la santé spirulina </fr>
+		<de> gesundheit spirulina </de>
+		<cz> zdravotní přínosy spiruliny </cz>
+	</query>
+	<query>
+		<id> 165001 </id>
+		<en> do allergies cause migraines </en>
+		<fr> Est-ce que les allergies causent des migraines </fr>
+		<de> verursachen allergien migränen </de>
+		<cz> způsobují alergie migrény? </cz>
+	</query>
+	<query>
+		<id> 166001 </id>
+		<en> ketamine and its potential for abuse </en>
+		<fr> ketamine et potentiel abus </fr>
+		<de> ketamin und sein missbrauchspotential </de>
+		<cz> ketamin a jeho potenciál pro zneužití </cz>
+	</query>
+	<query>
+		<id> 167001 </id>
+		<en> head and neck cancer </en>
+		<fr> cancer de la tête et du cou </fr>
+		<de> kopf-hals-karzinom </de>
+		<cz> karcinom hlavy a krku </cz>
+	</query>
+	<query>
+		<id> 168001 </id>
+		<en> hiv vaccine phase </en>
+		<fr> VIH vaccin phase </fr>
+		<de> hiv impfstoff phase </de>
+		<cz> hiv vakcína fáze </cz>
+	</query>
+	<query>
+		<id> 169001 </id>
+		<en> normal lab values </en>
+		<fr> analyse en laboratoire résultats normaux </fr>
+		<de> normale laborwerte </de>
+		<cz> normální laboratorní hodnoty </cz>
+	</query>
+	<query>
+		<id> 170001 </id>
+		<en> rheumatoid arthritis prognosis </en>
+		<fr> arthrite rhumatoïde prognostic </fr>
+		<de> rheumatoide arthritis prognose </de>
+		<cz> revmatoidní artritida prognóza </cz>
+	</query>
+	<query>
+		<id> 171001 </id>
+		<en> breast reduction and lift </en>
+		<fr> réduction et réhaussement mammaire </fr>
+		<de> brust verkleinerung und lifting </de>
+		<cz> zmenšení prsou a lifting </cz>
+	</query>
+	<query>
+		<id> 172001 </id>
+		<en> involuntary trembling or quivering </en>
+		<fr> Tremblement et palpitation involontaires </fr>
+		<de> unwillkürliches zittern oder zucken </de>
+		<cz> neúmyslný třes a chvění </cz>
+	</query>
+	<query>
+		<id> 173001 </id>
+		<en> drug food interaction </en>
+		<fr> Intéraction médicament nourriture </fr>
+		<de> medikament essen wechselwirkung </de>
+		<cz> interakce mezi potravou a léky </cz>
+	</query>
+	<query>
+		<id> 174001 </id>
+		<en> breakfast better student </en>
+		<fr> petit déjeuner meilleur étudiant </fr>
+		<de> frühstück  besser schüler </de>
+		<cz> snídaně lepší student </cz>
+	</query>
+	<query>
+		<id> 175001 </id>
+		<en> Voltaren Emugel 1% </en>
+		<fr> Voltaren Emugel 1% </fr>
+		<de> Voltaren Emugel 1% </de>
+		<cz> Voltaren Emulgel 1% </cz>
+	</query>
+	<query>
+		<id> 176001 </id>
+		<en> pelvic inflammatory disease </en>
+		<fr> Inflammation pelvienne maladie </fr>
+		<de> becken entzündlich krankheit </de>
+		<cz> pánevní zánět </cz>
+	</query>
+	<query>
+		<id> 177001 </id>
+		<en> breakfast school children </en>
+		<fr> petit déjeuner école enfant </fr>
+		<de> frühstück schulkinder </de>
+		<cz> snídaně školní děti </cz>
+	</query>
+	<query>
+		<id> 178001 </id>
+		<en> drug addiction organization </en>
+		<fr> addiction drogue organisation </fr>
+		<de> drogenabhängigkeit organisation </de>
+		<cz> drogová závislost organizace </cz>
+	</query>
+	<query>
+		<id> 179001 </id>
+		<en> resevrse insulin ressitance </en>
+		<fr> inverser l'insulino-résistance </fr>
+		<de> insulinresistenz umkehren </de>
+		<cz> reverzní inzulinová rezistence </cz>
+	</query>
+	<query>
+		<id> 180001 </id>
+		<en> sleep apnea syndrome </en>
+		<fr> apnée du sommeil syndrome </fr>
+		<de> schlafapnoe syndrom </de>
+		<cz> syndrom spánkové apnoe </cz>
+	</query>
+	<query>
+		<id> 181001 </id>
+		<en> marijuana's effects on mental health </en>
+		<fr> effets de la marijuana sur la santé mentale </fr>
+		<de> marihuana effekte auf mentale gesundheit </de>
+		<cz> vlivy marihuany na duševní zdraví </cz>
+	</query>
+	<query>
+		<id> 182001 </id>
+		<en> Delayed onset muscle soreness </en>
+		<fr> Courbatures </fr>
+		<de> muskelkater </de>
+		<cz> opožděný začátek bolesti svalů </cz>
+	</query>
+	<query>
+		<id> 183001 </id>
+		<en> what percent of celery is made of water </en>
+		<fr> À quel pourcentage le céleri est composé d'eau </fr>
+		<de> aus wieviel prozent wasser besteht sellerie </de>
+		<cz> z kolika procent vody je složen celer </cz>
+	</query>
+	<query>
+		<id> 184001 </id>
+		<en> antiandrogen therapy for prostate cancer </en>
+		<fr> antiandrogène traitement cancer prostate </fr>
+		<de> antiandrogen therapie bei prostatakrebs </de>
+		<cz> antiandrogenní terapie na rakovinu prostaty </cz>
+	</query>
+	<query>
+		<id> 185001 </id>
+		<en> chemicals causing prostate cancer </en>
+		<fr> produits chimiques causant le cancer de la prostate </fr>
+		<de> chemikalien die prostatakrebs verursachen </de>
+		<cz> chemikálie způsobující rakovinu prostaty </cz>
+	</query>
+	<query>
+		<id> 186001 </id>
+		<en> stem cell hearing loss </en>
+		<fr> cellule souche perte de l'audition </fr>
+		<de> stammzellen gehörverlust </de>
+		<cz> kmenové buňky ztráta sluchu </cz>
+	</query>
+	<query>
+		<id> 187001 </id>
+		<en> How does smoking cause hypertension? </en>
+		<fr> Comment le tabagisme provoque l'hypertension ? </fr>
+		<de> wie verursacht rauchen bluthochdruck? </de>
+		<cz> Jak  kouření způsobuje vysoký tlak? </cz>
+	</query>
+	<query>
+		<id> 188001 </id>
+		<en> caffeine high blood pressure </en>
+		<fr> Caféine hypertension artérielle </fr>
+		<de> koffein hoher blutdruck </de>
+		<cz> kofein vysoký krevní tlak </cz>
+	</query>
+	<query>
+		<id> 189001 </id>
+		<en> long term effects of gonhrrea </en>
+		<fr> effets à long terme de la gonorrhée </fr>
+		<de> langzeiteffekte von gonorrhö </de>
+		<cz> dlouhodobé vlivy gonorrhei </cz>
+	</query>
+	<query>
+		<id> 190001 </id>
+		<en> privatization of health care in canada </en>
+		<fr> privatisation de la santé au Canada </fr>
+		<de> privatisierung des gesundheitswesens in kanada </de>
+		<cz> privatizace zdravotnictví v Kanadě </cz>
+	</query>
+	<query>
+		<id> 191001 </id>
+		<en> liver function test uses </en>
+		<fr> fonctions du foie test usage </fr>
+		<de> leberfunktion test anwendungen </de>
+		<cz> použití testů na jeaterní fukce </cz>
+	</query>
+	<query>
+		<id> 192001 </id>
+		<en> diabetes mellitus and body fat mass </en>
+		<fr> diabète sucré et masse grasse </fr>
+		<de> diabetes mellitus und körperfett masse </de>
+		<cz> diabetes mellitus a tělesný tuk </cz>
+	</query>
+	<query>
+		<id> 193001 </id>
+		<en> health effects of ionized water therapy </en>
+		<fr> effets sur la santé du traitement à  l'eau ionisée </fr>
+		<de> gesundheitseffekte von  ionisiertem wasser </de>
+		<cz> zdravotní účinky ionizované vodoléčby </cz>
+	</query>
+	<query>
+		<id> 194001 </id>
+		<en> ankle avulsion fracture healing time </en>
+		<fr> cheville fracture par avulsion temps de cicatrisation </fr>
+		<de> knöchel distorsionsfraktur heilung zeit </de>
+		<cz> avulzní zlomenina kotníku doba hojení </cz>
+	</query>
+	<query>
+		<id> 195001 </id>
+		<en> affective treatments for chronic lyme disease </en>
+		<fr> traitements efficaces maladie de lyme chronique </fr>
+		<de> effektive behandlungen von chronischer lyme-krankheit </de>
+		<cz> afektivní léčby chronické Lymeské borreliózy </cz>
+	</query>
+	<query>
+		<id> 196001 </id>
+		<en> parkinson's disease + titanium link </en>
+		<fr> maladie de parkinson + titanium lien </fr>
+		<de> parkinson krankheit + titan verbindung </de>
+		<cz> Parkinsonova nemoc + titanové spojení </cz>
+	</query>
+	<query>
+		<id> 197001 </id>
+		<en> Four month infant running nose </en>
+		<fr> Quatre mois enfant nez qui coule </fr>
+		<de> vier monate kind laufende nase </de>
+		<cz> čtyřměsíční dítě rýma </cz>
+	</query>
+	<query>
+		<id> 198001 </id>
+		<en> high protein diet and its human health effects </en>
+		<fr> Régime hyperprotéiné et ses effets sur l'homme </fr>
+		<de> ernährung mit hohem proteinanteil und gesundheitseffekte </de>
+		<cz> strava s vysokým obsahem bílkovin a její účinky na lidské zdraví </cz>
+	</query>
+	<query>
+		<id> 199001 </id>
+		<en> why is there a minimum drinking age and what are the consequences of underage drinking? </en>
+		<fr> Pourquoi y-a t-il un âge minimum pour boire et quelle sont les conséquences de la consommation d'alcool avant l'âge légal </fr>
+		<de> warum gibt es ein mindestalter für alkoholkonsum und was sind die konsequenzen von alkoholkonsum bei minderjährigen? </de>
+		<cz> Proč existuje  minimální  věk pro pití alkoholu a jaké jsou důsledky pití nezletilých? </cz>
+	</query>
+	<query>
+		<id> 200001 </id>
+		<en> feeling of fullness with hiccups with a feeling of a lump in the back of the throat </en>
+		<fr> sensation de satiété avec hoquet et la sensation d'une grosseur au fond de la gorge </fr>
+		<de> völlegefühl mit schluckauf und dem gefühl von einem kloß im hals </de>
+		<cz> pocit plnosti se škytavku s pocitem knedlíku v zadní části krku </cz>
+	</query>
+</queries>
