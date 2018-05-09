@@ -1,51 +1,1452 @@
-Query number,Original query,Correctly spelled query,Corrected Narratives,Harry,Anton,Daniel,Jimmy,Kerry,Seb,Category_numbers,Category/subcategory_name,"Explanation for Lighthouse annotators (what should be in result list, what should not)",Comments if required
-1,anemia diet therapy,,You have been recently diagnosed with anemia. Your doctor prescribed a diet therapy which includes many changes in your diet. Find out more information on what kind of changes you will need.,anemia change in diet,diet for anemia,anemia treat diet therapy changes,anemia diet therapy,anemia diet,Diet for anemia,6.2,Diet for specific health conditions,Result gives information about diet for particular disease,
-2,emotional and mental disorders,,A colleague from work who was very social suddenly became withdrawn and has shown various mood alterations. You think there might be something wrong with her mental health. Find out more information on diseases that might be causing this change in her behaviour.,work colleague depression,"mental health problems, change in mood and withdrawn",mental health cause withdrawn mood changes ,disease cause mental health behaviour change,mood alterations causes,uncommon mood change ,1.1,Definition,Result should contain definition/brief description of the disease,"the results should present various medical conditions in this group (depression, shisophrenia etc)"
-3,american diabetes association,,One of your friends is an American citizen that recently has been diangosed with diabetes. You want to help her find out what kind of support the local US associations can provide.,USA diabetes association,us government support for diabetes,diabetes US support organisation,diabetes support for American citizen,support for diabetes patient US local associations,Diabetes support USA,3,Healthcare,,"there is no particular subcategory for this one, but basically the result should be the web site of organization"
-4,high blood pressure,,"Your elderly father has just been diagnosed with high blood pressure (HBP). You have decided to find some information that discusses living with high blood pressure and its effects on daily living, including which food and activities he should avoid.",elderly hbp food activities,living with high blood pressure,high blood pressure daily life changes diet activity ,high blood pressure diet and daily activities for elderly,How to live with high blood pressure ,Managing high blood pressure,1,Disease/illness/syndrome/pathological condition,"Result discusses living with the disease, or its effects on daily living.",
-5,infectious disease prevention,,"You heard on the news of an outbreak of an infectious disease in India. This episode made you curious to find out what causes an infectious disease outbreak, and how an outbreak could be prevented.",infectious disease india,infectious disease prevention,infectious disease outbreak cause prevent ,infectious disease outbreak cause and prevention,India infectious disease outbreak,Cause and prevenesion of infectious diseases,1.2,"Reasons, risk factors/prevention","Result describes the reason of the disease, how it is caught or transmitted, or the risk factors for catching the disease.","the results should present various infectious diseases (flu, malaria etc)"
-6,food allergy test,,"You found out today that one of your best friends is allergic to milk, while another one is allergic to nuts. You are concerned that you might be allergic to some food as well. Find out more information on what kind of test you can do to verify if you have any food allergy.",food allergy tests,tests for food allergies,test identify food allergy ,food allergic test,allergy test ,Allergy Tests,4,Test & procedures,,
-7,orlistat drug profile,,"You found a bottle of a drug called orlistat on the desk of a colleague from work. You are afraid that he might be suffering from some serious disease and would like to gather more information on that before asking him about it. Find out more information on orlistat (including what this drug is for, how long it should be administrated for, etc).",orlistat symptoms directions,what is orlistat,orlistat treatment,orlistat administration,what is orlistat ,orlistat information,2,Drugs and medicinal substances,Result gives a description or definition of the substance.,kind of drug information leaflet
-8,radiation health effect,,"You were offered an internship in a facility that performs x-ray tests on a daily basis. You are worried that this may affect your health, since now and then you could be exposed to higher levels of radiation. Find out more information on how radiation might affect your health and wellbeing.",xray radiation exposure,x-ray risks for medical personnel,radiation effects health,x-ray facility radiation daily long term exposure effect,effect of radiations on health,x-ray danger,6.5,Environmental health,,
-9,smoking and heart disease,,"Your aunt is addicted to nicotine and smokes two packs of cigarettes a day. She says that she smokes because her job is very demanding and smoking relaxes her. You want to convince her that smoking might be harmful to her, for example, increasing the chances of getting a heart disease. Find out more information on consequences of smoking to the human body, and in particular which diseases that she might develop in the near future.",adverse effects smoking,cigarette smoking risks,smoking risks health diseases,smoking long term harm to health and cause diseases,harms of smoking,Negitves of smoking ,1.2,"Reasons, risk factors/prevention","Result describes the reason of the disease, how it is caught or transmitted, or the risk factors for catching the disease.",
-10,smoking cessation products,,Your sister is trying to quit smoking and would like you to help. Find out information on different products for smoking cessation.,quit smoking,quit cigarette smoking,smoking quit products,quit smoking supporting products,,Anti-smoking assistance ,2,Drugs and medicinal substances,Result gives a description or definition of the substance.,various products and techniques
-11,omega 3 fatty acids,,Your colleague just started a diet that is rich in omega 3 fatty acids. You are curious to know which food contains these acids and what are the advantages and disadvantages of such diet. ,pros cons omega3,foods containing omega 3 fatty acids,food contain omega 3 fatty acid diet advantages,omega 3 fatty acids diet advantages and disadvantages,omega 3 pros and cons,omega 3 pros and cons,6.1,Balanced diet,,
-12,common medication errors,,"You are writing a survey on common mistakes related to drug and medications and would like to use a search engine to find out more information on common medication errors, which include drug interaction, drug overdose, wrong drug admission, and so on.",common medication mistakes,common drug administration errors,common medication problems side-effects overdose,medicine administration error overdose interaction,medications common mistakes,statistics on Medication errors,2,Drugs and medicinal substances,Result describes precautions that should be taken when using the substance.,"there is no particular subcategory for this one, but ideally the result should give some examples of medications errors. Probably drug interaction, drug overdose, wrong drug admission etc."
-13,Anxiety coping skills,,"You have been feeling a bit anxious recently, and are considering going to a doctor for a consultation. Before spending money for seeing a doctor, however, you have decided to see if you could learn startegies for day to day copying with your anxiety problem. You want to search internet for possible startegies.",dealing with anxiety,strategies for coping with anxiety,anxiety coping strategy,anxiety self treatment,how to cope with anxiety,How to cope with anxiety ,1.10,Day to day life,"Result discusses living with the disease, or its effects on daily living.",
-14,health benefits of spirulina,,A colleague from work shared during lunch that she has been eating spirulina every day for a week and feeling great. You have never heard of spirulina and would like to know more about it and its health benefits.,spirulina wikipedia,health effects of spirulina,spirulina health benefit ,spirulina advantages and disadvantages,spirulina,pros and cons spirculina,6.1,Balanced diet,Result gives information about diet for particular disease,
-15,do allergies cause migraines,,"Your cousin is known to be allergic to everything (animal fur, peanuts, milk). Recently he missed all family get-togethers because he had terrible headaches (migraines). Find out if there is any relationship (cause and effect) between allergies and migraines or if your cousin is just avoiding the family reunions.",do allergies cause migraines,relationship between allergies and migraines,allergy symptom migraine ,allergic cause migraines,allergies lead to headaches?,headaches and allergies,1.3,Mechanism of disease development,Result describes the progress of the disease and its underlying biology.,
-16,ketamine and its potential for abuse,,You heard that a friend is in hospital because he abused a drug named ketamine. Find out more information what this drug is and its potential abuse.,ketamine,ketamine drug abuse,ketamine effects overdose ,ketamine use and abuse,ketamine abuse,how can Ketamine be abused,2.5,Precautions,,"can also be 2.4, 2.6 and 2.7"
-17,head and neck cancer,,"You heard that ex-Formula1 pilot Barichello was treated for a neck cancer. This news made you curious of what are the different type of cancers that affect the head and neck, and how these different types of cancer progress, including what is the mortality risk for each of these.",neck cancer mortality,mortality risks of different types of head and neck cancer,head neck cancer type progression mortality,cancer types development and fatality,head and neck cancer,types of cancer for head and neck,1,Disease/illness/syndrome/pathological condition,Result describes the progress of the disease and its underlying biology.,also 7.1. the results should present various cancers occuring in these body parts
-18,hiv vaccine phase,,"On your way to work, you heard on the radio that scientists are developing an HIV vaccine, but a clinical trial for this vaccine has many phases. Find out more information on the process and the phases involved in creating an HIV vaccine.",hiv vaccine clinical trial phases,HIV vaccine development phases,HIV vaccine stages,HIV vaccine development procedures,How HIV vaccine is made,HIV vaccine,4.7,Other procedures,,also 2.8
-19,normal lab values,,"You had some blood tests doen last week and now you received the results. You would like to know how your results compare to normal values, but you don't know what the normal values are for your lab tests. Search online to find more information on this.",baseline blood tests,how to interpret my blood test results,blood test normal range results,blood test normal values range,normal values of blood tests,normal blood test values,4,Test & procedures,,
-20,rheumatoid arthritis prognosis,,You have been diagnosed with rheumatoid arthritis by your doctor. Find out more information on this disease and what its likely course is.,rheumatoid arthritis causes,rheumatodi arthritis long term outlook,rheumatoid arthritis prognosis ,rheumatoid arthritis cause and effects,rheumatoid causes,Rheumatoid arthritis symptoms,1.7,Prognosis,Result describes the prognosis for the disease.,
-21,breast reduction and lift,,"The fiance of a friend of yours wants to undertake a breast operation and lift surgery. You are curious to know more about what this operation is, how much it may cost, and why people would do it.",cosmetic surgery breast,breast augmentation surgery details,breast lift surgery cost information,breast operation lift surgery cost and benefit,breast operation lift surgery,breast lift surgery,4.6,Surgery Operations,,
-22,involuntary trembling or quivering,,"Yesterday you noticed that your mum was trembling and quivering. She did not do this on purpose, and when you asked her, she said she felt fine. You want to find out what may have caused this, and whether it is something serious.",woman trembling quivering,causes of trembling and quivering,fever shivering causes ,elderly trembling and quivering cause,trembling and quivering causes,course for trembling and quivering,1.4,Symptoms,Result describes symptoms of the disease and treatments.,results should provide possible health conditions for which this symptom is known and also 1.6 (treatment options)
-23,drug food interaction,,"You have heard in the radio that some medications may interact with food. You want to use a search engine to know more about this, and find example of drug-food interactions.",medication food interaction,medications and food interaction,medication food interactions,drug food interactions,drug food interactions,drug and food interactions,2.6,Interactions,,results should provide known examples of food-drug interaction
-24,breakfast better student,,Your daughter is not going well in school. Her grades are very low. You saw on the morning news on TV that breakfast might affect school performance. Find out more information on how breakfast might affect student performance at school.,does breakfast improve student performance,breakfast and student performance,child food breakfast before school,breakfast affects student performance,breakfast influence perforamce at school?,How does breakfast effect you,6.1,Balanced diet,,
-25,Voltaren Emugel 1%,,"Your right ankle is hurting from running 10 kilometres yesterday. You know that you have Voltaren Emugel 1% at home, but you lost its leaflet. Find out information on the Web to understand if you can use this drug to treat your injury.",voltaren emugel leaflet pdf,Voltaren Emugel 1% for running injury,voltaren ankle pain running ,voltaren emugel ankle pain,how to use Voltaren Emugel 1%,how to use Voltaren Emugel 1%,2,Drugs and medicinal substances,Result gives a description or definition of the substance.,drug information leaflet
-26,pelvic inflammatory disease,,"Your physiotherapist has mentioned you may have pelvic inflammatory disease and suggested you to go to a doctor. On your way to the doctor, you have decided to search using your mobile to find out more information about how this disease can be treated.",pelvic inflammatory disease treatment,treating pelvic inflammatory disease,pevlic inflammatory disease treatments,pelvic inflammatory disease causes effects treatments,pelvic inflammatory treatment,what is pelvic inflammatory disease,1,Disease/illness/syndrome/pathological condition,Result describes how a disease is treated.,
-27,breakfast school children,,"You daughter is starting school soon and her classes are very early in the morning. She wants to skip breakfast to sleep a little bit longer, but you are concerned that this might affect her health and school performance. Find out more information on whether breakfast affects school performance and what kind of diet is best for a school-age kid.",do children need breakfast before school,best breakfast for school students,child breakfast school performance diet ,breakfast and diet for school kid,kids skipping breakfasts,breakfast health young kids,6.1,Balanced diet,,
-28,drug addiction organization,,You have been told one of your friends has a drug addiction. You want to find out what organizations exist that could support people with drug addiction,drug support organisations,what organisations support drug addiction,drug addiction rehab organisation,drug addict support organizations,drug addiction support group,addiction support,3,Healthcare,,"there is no particular subcategory for this one, but basically the result should be the web site of such organizations"
-29,resevrse insulin ressitance,reverse insulin resistance,"You heard that the human body has mechanisms to resist to insulin. You want to find out how this resistance process could be reduced, and how this would work.",insulin resistance reduction,body mechanisms to resist insulin,human insulin resistance prevent ,insulin resistance treatment,"human body resist to insulin , how?",Insulin resistance ,1.3,Mechanism of disease development,Result describes the progress of the disease and its underlying biology.,
-30,sleep apnea syndrome,,"You spent the whole night awake because your partner sounded like they were suffocating while they slept. You think that they might have apnea syndrome, and so you have decided to search for more information about how this disease can be treated. ",sleep apnea treatment,how to treat apnea syndrome,sleep apnea treatment,sleep apnea treatment,apnea causes and treatment,Symptoms and treatments for sleep apnea,1,Disease/illness/syndrome/pathological condition,Result describes how a disease is treated.,
-31,marijuana's effects on mental health,,On the Last Week Tonight show you heard John Oliver telling that marijuana might affect negatively your long-term memory. Find out more information on the effects of marijuana on human memory. Was it just a joke?,effect of marijuana on memory,does marijuana affect your memory,marijuana long term memory effect,marijuan affect memory,marijuana long-term memory,Marjuana nad long term memory,1.2,"Reasons, risk factors/prevention","Result describes the reason of the disease, how it is caught or transmitted, or the risk factors for catching the disease.",
-32,Delayed onset muscle soreness,,"You have been exercising for a few weeks and felt great since. However, it's now a couple of days that you feel you your muscles are sore. You started wondering whether your muscle soreness may be due to the exercise you have been doing, although it has been quite a bit of time since you started exercising.",muscle sore prolonged exercise,Delayed muscle soreness after exercise,Muscle soreness exercise duration,muscle soreness from excercise,sore muscle after exercise,delayed muscle sorness from exercise ,6.3,Exercise and weight loss,,
-33,what percent of celery is made of water,,"One of the questions in yesterday's Who Wants to be a Millionaire TV show was regarding the percent of water in celery. You could not hear what the correct answer was, and now you want to use a search engine to find out what the correct answer would have been.",celery water content,Water content of celery,celery water percentage,water percentage in celery,water percentage celery,%water in celery,6.1,Balanced diet,,
-34,antiandrogen therapy for prostate cancer,,"Your neighbour was diagnosed with prostate cancer. He told you that his doctor recommended an antiandrogen therapy, but you never heard of it. Find out more information on this procedure for treating prostate cancer.",antiandrogen therapy prostate cancer, antiandrogen therapy for prostate cancer,antiandrogen treatment prostate cancer,antiandrogen therapy for prostate cancer,antiandrogen therapy ,Antiandrogen therapy,1.6,Treatment,Result describes how a disease is treated.,
-35,chemicals causing prostate cancer,,"A friend of your father was recently diagnosed with prostate cancer. Your father told you that chemicals and toxins could have caused his friend's cancer. Find out more information if chemicals and toxins could cause prostate cancer, what are those chemicals and toxins and ways to prevent contact with them.",chemicals and toxins that cause prostate cancer,can chemicals and toxins cause prostate cancer,cause prostate cancer chemical toxin avoid,prostate cancer relation to chemicals and toxins,prostate cancer chemcials prevention,chemicals linked to prostate cancer,1.2,"Reasons, risk factors/prevention","Result describes the reason of the disease, how it is caught or transmitted, or the risk factors for catching the disease.",
-36,stem cell hearing loss,,Your father is the principal conductor of an orchestra and he started to lose his hearing. He is under pressure and can lose his job. A friend from college told you that scientists are using stem cells for treating a large number of diseases. Find out more information about stem cell treatments for hearing loss. ,stem cell treatment hearing loss,stem cell treatments for hearing loss,stem cell treatment hearing loss,stem cell for hearing loss,cell treatment hearing loss,Stem cells and hearing loss,1.6,Treatment,Result describes how a disease is treated.,"stem cell therapy to cure hearing loss, can be also 1.11 and 1.12"
-37,How does smoking cause hypertension?,,A colleague from work is very concerned about his health. He got his blood test results and his blood pressure is high. His doctor told him to quit smoking. You did not know that smoking could cause hypertension. Find out more information on how smoking causes hypertension and what can be done to decrease blood pressure. ,decrease hypertension smoking,how to decrease blood pressure,blood pressure smoking hypertension cause decrease,smoking and hypertension how to decrease blood pressure,smoking hypertension treatment,links to smoking and hypertension and treatment,1.2,"Reasons, risk factors/prevention","Result describes the reason of the disease, how it is caught or transmitted, or the risk factors for catching the disease.",
-38,caffeine high blood pressure,,You are close to a deadline at work and you are drinking a substantial amount of coffee. A friend warned you that this might affect your blood pressure and you could have a heart attack. You wonder if she may be right. Find out more information on the effects of caffeine on your blood pressure and consequences of drinking too much caffeine.,caffeine heart attack,effects of caffeine on blood pressure,caffeine drinking side effect heart attack blood pressure ,caffeine effectes on health and blood pressure,effects of drinking too much cofffee,dangers of drinking to much caffine,1.2,"Reasons, risk factors/prevention","Result describes the reason of the disease, how it is caught or transmitted, or the risk factors for catching the disease.",
-39,long term effects of gonhrrea,long term effects of gonorrhea,You heard that the actor Jim Carry is being accused of having transmitted gonorrhoea to his deceased girlfriend. This probably means that he had gonorrhoea at some point in his life. You also heard that gonorrhoea is a disease with serious long-term effects. Find out more information on what are those long-term effects (if any).,gonorrega long term effects,long term effects of gonorrhoea,long term effect gonorrhoea ,gonorrhoea long term effects,gonorrhoea effects,long term effects of gonorrhoea,1.7,Prognosis,Result describes the prognosis for the disease.,
-40,privatization of health care in canada,,"Your colleague from work told that Canada will privatize its health care system. In the age of fake-news, you would like to verify this information using a search engine. Find out more information that supports or reject the claim about the privatization of health care in Canada.",health care privatisation canada government official,is canadian health care being privatized,privatisation health care system canada ,canada health care privatisation,Canada privatize health care system real?,Privatized healthcare canada,3,Healthcare,,"there is no particular sub-category, its a healthcare rather than health information"
-41,liver function test uses,,Your doctor said he wants to run some blood exams to test your liver functions. You want to find out more information about how these tests could be used to understand the correct behaviour of your liver functions.,blood test liver function,how do blood tests inform liver function,liver function blood test ,liver functions blood test understanding results and treatments,blood exam liver function,results about liver from bloodtest,4.1,Blood tests,,
-42,diabetes mellitus and body fat mass,,One of your friends has been diagnosed with diabetes mellitus and he told you that he needs to change diet. He is not sure what is a good target value for his body fat mass and asked your help. Help your friend by finding out more information on the relationship between body fat mass and diabetes mellitus.,diabetus mellitus target weight,body fat mass index and diabetes mellitus,diabetes mellitus body fat mass ideal ,diabetes melitus and normal body fat mass,diabetes melllitus healthy body mass,body fat and diabetes ,1.2,"Reasons, risk factors/prevention","Result describes the reason of the disease, how it is caught or transmitted, or the risk factors for catching the disease.",
-43,health effects of ionized water therapy,,You saw on TV some advertisement on ionized water therapy. Find out more information on the credibility of this therapy and its health effects on the human body.,ionized water therapy efficacy,credibility of ionized water therapy,ionized water therapy health benefit,ionised water therapy affects health,does ionized water therapy really work?,studies of ionized water therpy,6,Healthy lifestyle,,
-44,ankle avulsion fracture healing time,,You have hurt your ankle playing football with your friends yesterday. Your doctor told you that it is an avulsion fracture and you soon will be able to play football again. You would like to use a search engine to know what your doctor meant by 'soon'. Find out more information regarding the healing time of your fracture.,healing time avulsion fracture,recovery time for avulsion fracture of ankle,avulsion fracture ankle time heal sport,ankle avulsion fracture healing time,avulsion fracture recovery time,avulsion fracture healing time,1.7,Prognosis,Result describes the prognosis for the disease.,
-45,affective treatments for chronic lyme disease,effective treatments for chronic lyme disease,"Your son was bitten by a tick and his exams suggest that he has Lyme disease. Before speaking with a doctor, you want to get information on possible treatments for this disease. Use a search engine to find out more information on effective treatments for Lyme disease.",lyme disease treatments,treatments for lyme disease,lyme disease treatment ,lyme disease treatments,Lyme disease treatment,treatments for lyme disease,1.6,Treatment,Result describes how a disease is treated.,
-46,parkinson's disease + titanium link,,"You remember of a TV episode from the House M.D. TV series in which Dr. House helped diagnose a patient with Parkinson's disease. You vaguely remember that titanium (or another heavy metal) was involved in the diagnosis, but you cannot recall if it caused the disease or if it was the treatment. Find out more information on the relationship between Parkinson's disease and titanium. ",titanim parkinsons disease,parkinson's disease and titanium,parkinson's disease titanium cause treatment ,parkinson's disease and (titanium OR heavy metals),Parkinson disease titanium,links between parkinsions and heavy metals,1.6,Treatment,Result describes how a disease is treated.,
-47,Four month infant running nose,,"Your cousin's baby, who is four months old, has had a runnign nose for a few days. Since your cousin is busy with the day-to-day care of the newborn, you want to help her find out information on how she could treat her little baby.",baby runny nose chronic,how to treat a running nose for a baby,treatment running nose baby infant ,baby runny nose treatment,newborn running nose treatment,runny nose baby,1.4,Symptoms,Result describes how a disease is treated.,could be also 1.6 for running nose for infants (note -- this has been changed to 1.6)
-48,high protein diet and its human health effects,,A colleague from work shared with you today that he is on a high protein diet. You are concerned with your colleague's health and would like to find out more information on the effects of such diet on health.,high protein diet health risks,risks of high protein diet,high protein diet health effect,high protein diet affects health,high protein diet pros and cons,high protein diet health effects,6.1,Balanced diet,,
-49,why is there a minimum drinking age and what are the consequences of underage drinking?,,"You read in the newspaper that politicians are thinking on changing the minimum drinking age in your region. Your friend told you that the minimum drinking age varies from country to country, in countries for which drinking alcohol is legal. However, you and your friend seem not to know why there is a minimum drinking age and what are the consequences of underage drinking. Find out more information on that using a search engine.",underage drinking risks,consequences of underage drinking,underage drinking detriment health effect,alcohol drinking underage effects,effect of underage drinking,Drinking age laws,6.4,Quitting harmful habits,,
-50,feeling of fullness with hiccups with a feeling of a lump in the back of the throat,,"It's few days now that you have been having hiccups after eating. You felt you eat enough every time, in fact, you felt full. At the same time, you feel something in the back of your throat: like if you had a bump or lump. You want to search the internet to understand what you may have, so that you can decide if it's worth to make an appointment with a doctor.",swelling back of throat hiccups,hiccups and lump in back of throat,hiccup eating lump back throat cause,hiccups after eating lump in throat,throat lump hiccups,lump in back of throat after eating,1.4,Symptoms,Result describes symptoms of the disease.,
+<queries>
+	<query>
+		<id>151001</id>
+		<en>anemia diet therapy</en>
+	</query>
+	<query>
+		<id>151002</id>
+		<en>anemia change in diet</en>
+	</query>
+	<query>
+		<id>151003</id>
+		<en>diet for anemia</en>
+	</query>
+	<query>
+		<id>151004</id>
+		<en>diet for anemia</en>
+	</query>
+	<query>
+		<id>151005</id>
+		<en>anemia diet therapy</en>
+	</query>
+	<query>
+		<id>151006</id>
+		<en>anemia diet</en>
+	</query>
+	<query>
+		<id>151007</id>
+		<en>Diet for anemia</en>
+	</query>
+
+	<query>
+		<id>152001</id>
+		<en>emotional and mental disorders</en>
+	</query>
+	<query>
+		<id>152002</id>
+		<en>work colleague depression</en>
+	</query>
+	<query>
+		<id>152003</id>
+		<en>mental health problems, change in mood and withdrawn</en>
+	</query>
+	<query>
+		<id>152004</id>
+		<en>mental health problems, change in mood and withdrawn</en>
+	</query>
+	<query>
+		<id>152005</id>
+		<en>disease cause mental health behaviour change</en>
+	</query>
+	<query>
+		<id>152006</id>
+		<en>mood alterations causes</en>
+	</query>
+	<query>
+		<id>152007</id>
+		<en>uncommon mood change </en>
+	</query>
+
+	<query>
+		<id>153001</id>
+		<en>american diabetes association</en>
+	</query>
+	<query>
+		<id>153002</id>
+		<en>USA diabetes association</en>
+	</query>
+	<query>
+		<id>153003</id>
+		<en>us government support for diabetes</en>
+	</query>
+	<query>
+		<id>153004</id>
+		<en>us government support for diabetes</en>
+	</query>
+	<query>
+		<id>153005</id>
+		<en>diabetes support for American citizen</en>
+	</query>
+	<query>
+		<id>153006</id>
+		<en>support for diabetes patient US local associations</en>
+	</query>
+	<query>
+		<id>153007</id>
+		<en>Diabetes support USA</en>
+	</query>
+
+	<query>
+		<id>154001</id>
+		<en>high blood pressure</en>
+	</query>
+	<query>
+		<id>154002</id>
+		<en>elderly hbp food activities</en>
+	</query>
+	<query>
+		<id>154003</id>
+		<en>living with high blood pressure</en>
+	</query>
+	<query>
+		<id>154004</id>
+		<en>living with high blood pressure</en>
+	</query>
+	<query>
+		<id>154005</id>
+		<en>high blood pressure diet and daily activities for elderly</en>
+	</query>
+	<query>
+		<id>154006</id>
+		<en>How to live with high blood pressure </en>
+	</query>
+	<query>
+		<id>154007</id>
+		<en>Managing high blood pressure</en>
+	</query>
+
+	<query>
+		<id>155001</id>
+		<en>infectious disease prevention</en>
+	</query>
+	<query>
+		<id>155002</id>
+		<en>infectious disease india</en>
+	</query>
+	<query>
+		<id>155003</id>
+		<en>infectious disease prevention</en>
+	</query>
+	<query>
+		<id>155004</id>
+		<en>infectious disease prevention</en>
+	</query>
+	<query>
+		<id>155005</id>
+		<en>infectious disease outbreak cause and prevention</en>
+	</query>
+	<query>
+		<id>155006</id>
+		<en>India infectious disease outbreak</en>
+	</query>
+	<query>
+		<id>155007</id>
+		<en>Cause and prevenesion of infectious diseases</en>
+	</query>
+
+	<query>
+		<id>156001</id>
+		<en>food allergy test</en>
+	</query>
+	<query>
+		<id>156002</id>
+		<en>food allergy tests</en>
+	</query>
+	<query>
+		<id>156003</id>
+		<en>tests for food allergies</en>
+	</query>
+	<query>
+		<id>156004</id>
+		<en>tests for food allergies</en>
+	</query>
+	<query>
+		<id>156005</id>
+		<en>food allergic test</en>
+	</query>
+	<query>
+		<id>156006</id>
+		<en>allergy test </en>
+	</query>
+	<query>
+		<id>156007</id>
+		<en>Allergy Tests</en>
+	</query>
+
+	<query>
+		<id>157001</id>
+		<en>orlistat drug profile</en>
+	</query>
+	<query>
+		<id>157002</id>
+		<en>orlistat symptoms directions</en>
+	</query>
+	<query>
+		<id>157003</id>
+		<en>what is orlistat</en>
+	</query>
+	<query>
+		<id>157004</id>
+		<en>what is orlistat</en>
+	</query>
+	<query>
+		<id>157005</id>
+		<en>orlistat administration</en>
+	</query>
+	<query>
+		<id>157006</id>
+		<en>what is orlistat </en>
+	</query>
+	<query>
+		<id>157007</id>
+		<en>orlistat information</en>
+	</query>
+
+	<query>
+		<id>158001</id>
+		<en>radiation health effect</en>
+	</query>
+	<query>
+		<id>158002</id>
+		<en>xray radiation exposure</en>
+	</query>
+	<query>
+		<id>158003</id>
+		<en>x-ray risks for medical personnel</en>
+	</query>
+	<query>
+		<id>158004</id>
+		<en>x-ray risks for medical personnel</en>
+	</query>
+	<query>
+		<id>158005</id>
+		<en>x-ray facility radiation daily long term exposure effect</en>
+	</query>
+	<query>
+		<id>158006</id>
+		<en>effect of radiations on health</en>
+	</query>
+	<query>
+		<id>158007</id>
+		<en>x-ray danger</en>
+	</query>
+
+	<query>
+		<id>159001</id>
+		<en>smoking and heart disease</en>
+	</query>
+	<query>
+		<id>159002</id>
+		<en>adverse effects smoking</en>
+	</query>
+	<query>
+		<id>159003</id>
+		<en>cigarette smoking risks</en>
+	</query>
+	<query>
+		<id>159004</id>
+		<en>cigarette smoking risks</en>
+	</query>
+	<query>
+		<id>159005</id>
+		<en>smoking long term harm to health and cause diseases</en>
+	</query>
+	<query>
+		<id>159006</id>
+		<en>harms of smoking</en>
+	</query>
+	<query>
+		<id>159007</id>
+		<en>Negitves of smoking </en>
+	</query>
+
+	<query>
+		<id>160001</id>
+		<en>smoking cessation products</en>
+	</query>
+	<query>
+		<id>160002</id>
+		<en>quit smoking</en>
+	</query>
+	<query>
+		<id>160003</id>
+		<en>quit cigarette smoking</en>
+	</query>
+	<query>
+		<id>160004</id>
+		<en>quit cigarette smoking</en>
+	</query>
+	<query>
+		<id>160005</id>
+		<en>quit smoking supporting products</en>
+	</query>
+	<query>
+		<id>160006</id>
+		<en>nan</en>
+	</query>
+	<query>
+		<id>160007</id>
+		<en>Anti-smoking assistance </en>
+	</query>
+
+	<query>
+		<id>161001</id>
+		<en>omega 3 fatty acids</en>
+	</query>
+	<query>
+		<id>161002</id>
+		<en>pros cons omega3</en>
+	</query>
+	<query>
+		<id>161003</id>
+		<en>foods containing omega 3 fatty acids</en>
+	</query>
+	<query>
+		<id>161004</id>
+		<en>foods containing omega 3 fatty acids</en>
+	</query>
+	<query>
+		<id>161005</id>
+		<en>omega 3 fatty acids diet advantages and disadvantages</en>
+	</query>
+	<query>
+		<id>161006</id>
+		<en>omega 3 pros and cons</en>
+	</query>
+	<query>
+		<id>161007</id>
+		<en>omega 3 pros and cons</en>
+	</query>
+
+	<query>
+		<id>162001</id>
+		<en>common medication errors</en>
+	</query>
+	<query>
+		<id>162002</id>
+		<en>common medication mistakes</en>
+	</query>
+	<query>
+		<id>162003</id>
+		<en>common drug administration errors</en>
+	</query>
+	<query>
+		<id>162004</id>
+		<en>common drug administration errors</en>
+	</query>
+	<query>
+		<id>162005</id>
+		<en>medicine administration error overdose interaction</en>
+	</query>
+	<query>
+		<id>162006</id>
+		<en>medications common mistakes</en>
+	</query>
+	<query>
+		<id>162007</id>
+		<en>statistics on Medication errors</en>
+	</query>
+
+	<query>
+		<id>163001</id>
+		<en>Anxiety coping skills</en>
+	</query>
+	<query>
+		<id>163002</id>
+		<en>dealing with anxiety</en>
+	</query>
+	<query>
+		<id>163003</id>
+		<en>strategies for coping with anxiety</en>
+	</query>
+	<query>
+		<id>163004</id>
+		<en>strategies for coping with anxiety</en>
+	</query>
+	<query>
+		<id>163005</id>
+		<en>anxiety self treatment</en>
+	</query>
+	<query>
+		<id>163006</id>
+		<en>how to cope with anxiety</en>
+	</query>
+	<query>
+		<id>163007</id>
+		<en>How to cope with anxiety </en>
+	</query>
+
+	<query>
+		<id>164001</id>
+		<en>health benefits of spirulina</en>
+	</query>
+	<query>
+		<id>164002</id>
+		<en>spirulina wikipedia</en>
+	</query>
+	<query>
+		<id>164003</id>
+		<en>health effects of spirulina</en>
+	</query>
+	<query>
+		<id>164004</id>
+		<en>health effects of spirulina</en>
+	</query>
+	<query>
+		<id>164005</id>
+		<en>spirulina advantages and disadvantages</en>
+	</query>
+	<query>
+		<id>164006</id>
+		<en>spirulina</en>
+	</query>
+	<query>
+		<id>164007</id>
+		<en>pros and cons spirculina</en>
+	</query>
+
+	<query>
+		<id>165001</id>
+		<en>do allergies cause migraines</en>
+	</query>
+	<query>
+		<id>165002</id>
+		<en>do allergies cause migraines</en>
+	</query>
+	<query>
+		<id>165003</id>
+		<en>relationship between allergies and migraines</en>
+	</query>
+	<query>
+		<id>165004</id>
+		<en>relationship between allergies and migraines</en>
+	</query>
+	<query>
+		<id>165005</id>
+		<en>allergic cause migraines</en>
+	</query>
+	<query>
+		<id>165006</id>
+		<en>allergies lead to headaches?</en>
+	</query>
+	<query>
+		<id>165007</id>
+		<en>headaches and allergies</en>
+	</query>
+
+	<query>
+		<id>166001</id>
+		<en>ketamine and its potential for abuse</en>
+	</query>
+	<query>
+		<id>166002</id>
+		<en>ketamine</en>
+	</query>
+	<query>
+		<id>166003</id>
+		<en>ketamine drug abuse</en>
+	</query>
+	<query>
+		<id>166004</id>
+		<en>ketamine drug abuse</en>
+	</query>
+	<query>
+		<id>166005</id>
+		<en>ketamine use and abuse</en>
+	</query>
+	<query>
+		<id>166006</id>
+		<en>ketamine abuse</en>
+	</query>
+	<query>
+		<id>166007</id>
+		<en>how can Ketamine be abused</en>
+	</query>
+
+	<query>
+		<id>167001</id>
+		<en>head and neck cancer</en>
+	</query>
+	<query>
+		<id>167002</id>
+		<en>neck cancer mortality</en>
+	</query>
+	<query>
+		<id>167003</id>
+		<en>mortality risks of different types of head and neck cancer</en>
+	</query>
+	<query>
+		<id>167004</id>
+		<en>mortality risks of different types of head and neck cancer</en>
+	</query>
+	<query>
+		<id>167005</id>
+		<en>cancer types development and fatality</en>
+	</query>
+	<query>
+		<id>167006</id>
+		<en>head and neck cancer</en>
+	</query>
+	<query>
+		<id>167007</id>
+		<en>types of cancer for head and neck</en>
+	</query>
+
+	<query>
+		<id>168001</id>
+		<en>hiv vaccine phase</en>
+	</query>
+	<query>
+		<id>168002</id>
+		<en>hiv vaccine clinical trial phases</en>
+	</query>
+	<query>
+		<id>168003</id>
+		<en>HIV vaccine development phases</en>
+	</query>
+	<query>
+		<id>168004</id>
+		<en>HIV vaccine development phases</en>
+	</query>
+	<query>
+		<id>168005</id>
+		<en>HIV vaccine development procedures</en>
+	</query>
+	<query>
+		<id>168006</id>
+		<en>How HIV vaccine is made</en>
+	</query>
+	<query>
+		<id>168007</id>
+		<en>HIV vaccine</en>
+	</query>
+
+	<query>
+		<id>169001</id>
+		<en>normal lab values</en>
+	</query>
+	<query>
+		<id>169002</id>
+		<en>baseline blood tests</en>
+	</query>
+	<query>
+		<id>169003</id>
+		<en>how to interpret my blood test results</en>
+	</query>
+	<query>
+		<id>169004</id>
+		<en>how to interpret my blood test results</en>
+	</query>
+	<query>
+		<id>169005</id>
+		<en>blood test normal values range</en>
+	</query>
+	<query>
+		<id>169006</id>
+		<en>normal values of blood tests</en>
+	</query>
+	<query>
+		<id>169007</id>
+		<en>normal blood test values</en>
+	</query>
+
+	<query>
+		<id>170001</id>
+		<en>rheumatoid arthritis prognosis</en>
+	</query>
+	<query>
+		<id>170002</id>
+		<en>rheumatoid arthritis causes</en>
+	</query>
+	<query>
+		<id>170003</id>
+		<en>rheumatodi arthritis long term outlook</en>
+	</query>
+	<query>
+		<id>170004</id>
+		<en>rheumatodi arthritis long term outlook</en>
+	</query>
+	<query>
+		<id>170005</id>
+		<en>rheumatoid arthritis cause and effects</en>
+	</query>
+	<query>
+		<id>170006</id>
+		<en>rheumatoid causes</en>
+	</query>
+	<query>
+		<id>170007</id>
+		<en>Rheumatoid arthritis symptoms</en>
+	</query>
+
+	<query>
+		<id>171001</id>
+		<en>breast reduction and lift</en>
+	</query>
+	<query>
+		<id>171002</id>
+		<en>cosmetic surgery breast</en>
+	</query>
+	<query>
+		<id>171003</id>
+		<en>breast augmentation surgery details</en>
+	</query>
+	<query>
+		<id>171004</id>
+		<en>breast augmentation surgery details</en>
+	</query>
+	<query>
+		<id>171005</id>
+		<en>breast operation lift surgery cost and benefit</en>
+	</query>
+	<query>
+		<id>171006</id>
+		<en>breast operation lift surgery</en>
+	</query>
+	<query>
+		<id>171007</id>
+		<en>breast lift surgery</en>
+	</query>
+
+	<query>
+		<id>172001</id>
+		<en>involuntary trembling or quivering</en>
+	</query>
+	<query>
+		<id>172002</id>
+		<en>woman trembling quivering</en>
+	</query>
+	<query>
+		<id>172003</id>
+		<en>causes of trembling and quivering</en>
+	</query>
+	<query>
+		<id>172004</id>
+		<en>causes of trembling and quivering</en>
+	</query>
+	<query>
+		<id>172005</id>
+		<en>elderly trembling and quivering cause</en>
+	</query>
+	<query>
+		<id>172006</id>
+		<en>trembling and quivering causes</en>
+	</query>
+	<query>
+		<id>172007</id>
+		<en>course for trembling and quivering</en>
+	</query>
+
+	<query>
+		<id>173001</id>
+		<en>drug food interaction</en>
+	</query>
+	<query>
+		<id>173002</id>
+		<en>medication food interaction</en>
+	</query>
+	<query>
+		<id>173003</id>
+		<en>medications and food interaction</en>
+	</query>
+	<query>
+		<id>173004</id>
+		<en>medications and food interaction</en>
+	</query>
+	<query>
+		<id>173005</id>
+		<en>drug food interactions</en>
+	</query>
+	<query>
+		<id>173006</id>
+		<en>drug food interactions</en>
+	</query>
+	<query>
+		<id>173007</id>
+		<en>drug and food interactions</en>
+	</query>
+
+	<query>
+		<id>174001</id>
+		<en>breakfast better student</en>
+	</query>
+	<query>
+		<id>174002</id>
+		<en>does breakfast improve student performance</en>
+	</query>
+	<query>
+		<id>174003</id>
+		<en>breakfast and student performance</en>
+	</query>
+	<query>
+		<id>174004</id>
+		<en>breakfast and student performance</en>
+	</query>
+	<query>
+		<id>174005</id>
+		<en>breakfast affects student performance</en>
+	</query>
+	<query>
+		<id>174006</id>
+		<en>breakfast influence perforamce at school?</en>
+	</query>
+	<query>
+		<id>174007</id>
+		<en>How does breakfast effect you</en>
+	</query>
+
+	<query>
+		<id>175001</id>
+		<en>Voltaren Emugel 1%</en>
+	</query>
+	<query>
+		<id>175002</id>
+		<en>voltaren emugel leaflet pdf</en>
+	</query>
+	<query>
+		<id>175003</id>
+		<en>Voltaren Emugel 1% for running injury</en>
+	</query>
+	<query>
+		<id>175004</id>
+		<en>Voltaren Emugel 1% for running injury</en>
+	</query>
+	<query>
+		<id>175005</id>
+		<en>voltaren emugel ankle pain</en>
+	</query>
+	<query>
+		<id>175006</id>
+		<en>how to use Voltaren Emugel 1%</en>
+	</query>
+	<query>
+		<id>175007</id>
+		<en>how to use Voltaren Emugel 1%</en>
+	</query>
+
+	<query>
+		<id>176001</id>
+		<en>pelvic inflammatory disease</en>
+	</query>
+	<query>
+		<id>176002</id>
+		<en>pelvic inflammatory disease treatment</en>
+	</query>
+	<query>
+		<id>176003</id>
+		<en>treating pelvic inflammatory disease</en>
+	</query>
+	<query>
+		<id>176004</id>
+		<en>treating pelvic inflammatory disease</en>
+	</query>
+	<query>
+		<id>176005</id>
+		<en>pelvic inflammatory disease causes effects treatments</en>
+	</query>
+	<query>
+		<id>176006</id>
+		<en>pelvic inflammatory treatment</en>
+	</query>
+	<query>
+		<id>176007</id>
+		<en>what is pelvic inflammatory disease</en>
+	</query>
+
+	<query>
+		<id>177001</id>
+		<en>breakfast school children</en>
+	</query>
+	<query>
+		<id>177002</id>
+		<en>do children need breakfast before school</en>
+	</query>
+	<query>
+		<id>177003</id>
+		<en>best breakfast for school students</en>
+	</query>
+	<query>
+		<id>177004</id>
+		<en>best breakfast for school students</en>
+	</query>
+	<query>
+		<id>177005</id>
+		<en>breakfast and diet for school kid</en>
+	</query>
+	<query>
+		<id>177006</id>
+		<en>kids skipping breakfasts</en>
+	</query>
+	<query>
+		<id>177007</id>
+		<en>breakfast health young kids</en>
+	</query>
+
+	<query>
+		<id>178001</id>
+		<en>drug addiction organization</en>
+	</query>
+	<query>
+		<id>178002</id>
+		<en>drug support organisations</en>
+	</query>
+	<query>
+		<id>178003</id>
+		<en>what organisations support drug addiction</en>
+	</query>
+	<query>
+		<id>178004</id>
+		<en>what organisations support drug addiction</en>
+	</query>
+	<query>
+		<id>178005</id>
+		<en>drug addict support organizations</en>
+	</query>
+	<query>
+		<id>178006</id>
+		<en>drug addiction support group</en>
+	</query>
+	<query>
+		<id>178007</id>
+		<en>addiction support</en>
+	</query>
+
+	<query>
+		<id>179001</id>
+		<en>resevrse insulin ressitance</en>
+	</query>
+	<query>
+		<id>179002</id>
+		<en>insulin resistance reduction</en>
+	</query>
+	<query>
+		<id>179003</id>
+		<en>body mechanisms to resist insulin</en>
+	</query>
+	<query>
+		<id>179004</id>
+		<en>body mechanisms to resist insulin</en>
+	</query>
+	<query>
+		<id>179005</id>
+		<en>insulin resistance treatment</en>
+	</query>
+	<query>
+		<id>179006</id>
+		<en>human body resist to insulin , how?</en>
+	</query>
+	<query>
+		<id>179007</id>
+		<en>Insulin resistance </en>
+	</query>
+
+	<query>
+		<id>180001</id>
+		<en>sleep apnea syndrome</en>
+	</query>
+	<query>
+		<id>180002</id>
+		<en>sleep apnea treatment</en>
+	</query>
+	<query>
+		<id>180003</id>
+		<en>how to treat apnea syndrome</en>
+	</query>
+	<query>
+		<id>180004</id>
+		<en>how to treat apnea syndrome</en>
+	</query>
+	<query>
+		<id>180005</id>
+		<en>sleep apnea treatment</en>
+	</query>
+	<query>
+		<id>180006</id>
+		<en>apnea causes and treatment</en>
+	</query>
+	<query>
+		<id>180007</id>
+		<en>Symptoms and treatments for sleep apnea</en>
+	</query>
+
+	<query>
+		<id>181001</id>
+		<en>marijuana's effects on mental health</en>
+	</query>
+	<query>
+		<id>181002</id>
+		<en>effect of marijuana on memory</en>
+	</query>
+	<query>
+		<id>181003</id>
+		<en>does marijuana affect your memory</en>
+	</query>
+	<query>
+		<id>181004</id>
+		<en>does marijuana affect your memory</en>
+	</query>
+	<query>
+		<id>181005</id>
+		<en>marijuan affect memory</en>
+	</query>
+	<query>
+		<id>181006</id>
+		<en>marijuana long-term memory</en>
+	</query>
+	<query>
+		<id>181007</id>
+		<en>Marjuana nad long term memory</en>
+	</query>
+
+	<query>
+		<id>182001</id>
+		<en>Delayed onset muscle soreness</en>
+	</query>
+	<query>
+		<id>182002</id>
+		<en>muscle sore prolonged exercise</en>
+	</query>
+	<query>
+		<id>182003</id>
+		<en>Delayed muscle soreness after exercise</en>
+	</query>
+	<query>
+		<id>182004</id>
+		<en>Delayed muscle soreness after exercise</en>
+	</query>
+	<query>
+		<id>182005</id>
+		<en>muscle soreness from excercise</en>
+	</query>
+	<query>
+		<id>182006</id>
+		<en>sore muscle after exercise</en>
+	</query>
+	<query>
+		<id>182007</id>
+		<en>delayed muscle sorness from exercise </en>
+	</query>
+
+	<query>
+		<id>183001</id>
+		<en>what percent of celery is made of water</en>
+	</query>
+	<query>
+		<id>183002</id>
+		<en>celery water content</en>
+	</query>
+	<query>
+		<id>183003</id>
+		<en>Water content of celery</en>
+	</query>
+	<query>
+		<id>183004</id>
+		<en>Water content of celery</en>
+	</query>
+	<query>
+		<id>183005</id>
+		<en>water percentage in celery</en>
+	</query>
+	<query>
+		<id>183006</id>
+		<en>water percentage celery</en>
+	</query>
+	<query>
+		<id>183007</id>
+		<en>%water in celery</en>
+	</query>
+
+	<query>
+		<id>184001</id>
+		<en>antiandrogen therapy for prostate cancer</en>
+	</query>
+	<query>
+		<id>184002</id>
+		<en>antiandrogen therapy prostate cancer</en>
+	</query>
+	<query>
+		<id>184003</id>
+		<en> antiandrogen therapy for prostate cancer</en>
+	</query>
+	<query>
+		<id>184004</id>
+		<en> antiandrogen therapy for prostate cancer</en>
+	</query>
+	<query>
+		<id>184005</id>
+		<en>antiandrogen therapy for prostate cancer</en>
+	</query>
+	<query>
+		<id>184006</id>
+		<en>antiandrogen therapy </en>
+	</query>
+	<query>
+		<id>184007</id>
+		<en>Antiandrogen therapy</en>
+	</query>
+
+	<query>
+		<id>185001</id>
+		<en>chemicals causing prostate cancer</en>
+	</query>
+	<query>
+		<id>185002</id>
+		<en>chemicals and toxins that cause prostate cancer</en>
+	</query>
+	<query>
+		<id>185003</id>
+		<en>can chemicals and toxins cause prostate cancer</en>
+	</query>
+	<query>
+		<id>185004</id>
+		<en>can chemicals and toxins cause prostate cancer</en>
+	</query>
+	<query>
+		<id>185005</id>
+		<en>prostate cancer relation to chemicals and toxins</en>
+	</query>
+	<query>
+		<id>185006</id>
+		<en>prostate cancer chemcials prevention</en>
+	</query>
+	<query>
+		<id>185007</id>
+		<en>chemicals linked to prostate cancer</en>
+	</query>
+
+	<query>
+		<id>186001</id>
+		<en>stem cell hearing loss</en>
+	</query>
+	<query>
+		<id>186002</id>
+		<en>stem cell treatment hearing loss</en>
+	</query>
+	<query>
+		<id>186003</id>
+		<en>stem cell treatments for hearing loss</en>
+	</query>
+	<query>
+		<id>186004</id>
+		<en>stem cell treatments for hearing loss</en>
+	</query>
+	<query>
+		<id>186005</id>
+		<en>stem cell for hearing loss</en>
+	</query>
+	<query>
+		<id>186006</id>
+		<en>cell treatment hearing loss</en>
+	</query>
+	<query>
+		<id>186007</id>
+		<en>Stem cells and hearing loss</en>
+	</query>
+
+	<query>
+		<id>187001</id>
+		<en>How does smoking cause hypertension?</en>
+	</query>
+	<query>
+		<id>187002</id>
+		<en>decrease hypertension smoking</en>
+	</query>
+	<query>
+		<id>187003</id>
+		<en>how to decrease blood pressure</en>
+	</query>
+	<query>
+		<id>187004</id>
+		<en>how to decrease blood pressure</en>
+	</query>
+	<query>
+		<id>187005</id>
+		<en>smoking and hypertension how to decrease blood pressure</en>
+	</query>
+	<query>
+		<id>187006</id>
+		<en>smoking hypertension treatment</en>
+	</query>
+	<query>
+		<id>187007</id>
+		<en>links to smoking and hypertension and treatment</en>
+	</query>
+
+	<query>
+		<id>188001</id>
+		<en>caffeine high blood pressure</en>
+	</query>
+	<query>
+		<id>188002</id>
+		<en>caffeine heart attack</en>
+	</query>
+	<query>
+		<id>188003</id>
+		<en>effects of caffeine on blood pressure</en>
+	</query>
+	<query>
+		<id>188004</id>
+		<en>effects of caffeine on blood pressure</en>
+	</query>
+	<query>
+		<id>188005</id>
+		<en>caffeine effectes on health and blood pressure</en>
+	</query>
+	<query>
+		<id>188006</id>
+		<en>effects of drinking too much cofffee</en>
+	</query>
+	<query>
+		<id>188007</id>
+		<en>dangers of drinking to much caffine</en>
+	</query>
+
+	<query>
+		<id>189001</id>
+		<en>long term effects of gonhrrea</en>
+	</query>
+	<query>
+		<id>189002</id>
+		<en>gonorrega long term effects</en>
+	</query>
+	<query>
+		<id>189003</id>
+		<en>long term effects of gonorrhoea</en>
+	</query>
+	<query>
+		<id>189004</id>
+		<en>long term effects of gonorrhoea</en>
+	</query>
+	<query>
+		<id>189005</id>
+		<en>gonorrhoea long term effects</en>
+	</query>
+	<query>
+		<id>189006</id>
+		<en>gonorrhoea effects</en>
+	</query>
+	<query>
+		<id>189007</id>
+		<en>long term effects of gonorrhoea</en>
+	</query>
+
+	<query>
+		<id>190001</id>
+		<en>privatization of health care in canada</en>
+	</query>
+	<query>
+		<id>190002</id>
+		<en>health care privatisation canada government official</en>
+	</query>
+	<query>
+		<id>190003</id>
+		<en>is canadian health care being privatized</en>
+	</query>
+	<query>
+		<id>190004</id>
+		<en>is canadian health care being privatized</en>
+	</query>
+	<query>
+		<id>190005</id>
+		<en>canada health care privatisation</en>
+	</query>
+	<query>
+		<id>190006</id>
+		<en>Canada privatize health care system real?</en>
+	</query>
+	<query>
+		<id>190007</id>
+		<en>Privatized healthcare canada</en>
+	</query>
+
+	<query>
+		<id>191001</id>
+		<en>liver function test uses</en>
+	</query>
+	<query>
+		<id>191002</id>
+		<en>blood test liver function</en>
+	</query>
+	<query>
+		<id>191003</id>
+		<en>how do blood tests inform liver function</en>
+	</query>
+	<query>
+		<id>191004</id>
+		<en>how do blood tests inform liver function</en>
+	</query>
+	<query>
+		<id>191005</id>
+		<en>liver functions blood test understanding results and treatments</en>
+	</query>
+	<query>
+		<id>191006</id>
+		<en>blood exam liver function</en>
+	</query>
+	<query>
+		<id>191007</id>
+		<en>results about liver from bloodtest</en>
+	</query>
+
+	<query>
+		<id>192001</id>
+		<en>diabetes mellitus and body fat mass</en>
+	</query>
+	<query>
+		<id>192002</id>
+		<en>diabetus mellitus target weight</en>
+	</query>
+	<query>
+		<id>192003</id>
+		<en>body fat mass index and diabetes mellitus</en>
+	</query>
+	<query>
+		<id>192004</id>
+		<en>body fat mass index and diabetes mellitus</en>
+	</query>
+	<query>
+		<id>192005</id>
+		<en>diabetes melitus and normal body fat mass</en>
+	</query>
+	<query>
+		<id>192006</id>
+		<en>diabetes melllitus healthy body mass</en>
+	</query>
+	<query>
+		<id>192007</id>
+		<en>body fat and diabetes </en>
+	</query>
+
+	<query>
+		<id>193001</id>
+		<en>health effects of ionized water therapy</en>
+	</query>
+	<query>
+		<id>193002</id>
+		<en>ionized water therapy efficacy</en>
+	</query>
+	<query>
+		<id>193003</id>
+		<en>credibility of ionized water therapy</en>
+	</query>
+	<query>
+		<id>193004</id>
+		<en>credibility of ionized water therapy</en>
+	</query>
+	<query>
+		<id>193005</id>
+		<en>ionised water therapy affects health</en>
+	</query>
+	<query>
+		<id>193006</id>
+		<en>does ionized water therapy really work?</en>
+	</query>
+	<query>
+		<id>193007</id>
+		<en>studies of ionized water therpy</en>
+	</query>
+
+	<query>
+		<id>194001</id>
+		<en>ankle avulsion fracture healing time</en>
+	</query>
+	<query>
+		<id>194002</id>
+		<en>healing time avulsion fracture</en>
+	</query>
+	<query>
+		<id>194003</id>
+		<en>recovery time for avulsion fracture of ankle</en>
+	</query>
+	<query>
+		<id>194004</id>
+		<en>recovery time for avulsion fracture of ankle</en>
+	</query>
+	<query>
+		<id>194005</id>
+		<en>ankle avulsion fracture healing time</en>
+	</query>
+	<query>
+		<id>194006</id>
+		<en>avulsion fracture recovery time</en>
+	</query>
+	<query>
+		<id>194007</id>
+		<en>avulsion fracture healing time</en>
+	</query>
+
+	<query>
+		<id>195001</id>
+		<en>affective treatments for chronic lyme disease</en>
+	</query>
+	<query>
+		<id>195002</id>
+		<en>lyme disease treatments</en>
+	</query>
+	<query>
+		<id>195003</id>
+		<en>treatments for lyme disease</en>
+	</query>
+	<query>
+		<id>195004</id>
+		<en>treatments for lyme disease</en>
+	</query>
+	<query>
+		<id>195005</id>
+		<en>lyme disease treatments</en>
+	</query>
+	<query>
+		<id>195006</id>
+		<en>Lyme disease treatment</en>
+	</query>
+	<query>
+		<id>195007</id>
+		<en>treatments for lyme disease</en>
+	</query>
+
+	<query>
+		<id>196001</id>
+		<en>parkinson's disease + titanium link</en>
+	</query>
+	<query>
+		<id>196002</id>
+		<en>titanim parkinsons disease</en>
+	</query>
+	<query>
+		<id>196003</id>
+		<en>parkinson's disease and titanium</en>
+	</query>
+	<query>
+		<id>196004</id>
+		<en>parkinson's disease and titanium</en>
+	</query>
+	<query>
+		<id>196005</id>
+		<en>parkinson's disease and (titanium OR heavy metals)</en>
+	</query>
+	<query>
+		<id>196006</id>
+		<en>Parkinson disease titanium</en>
+	</query>
+	<query>
+		<id>196007</id>
+		<en>links between parkinsions and heavy metals</en>
+	</query>
+
+	<query>
+		<id>197001</id>
+		<en>Four month infant running nose</en>
+	</query>
+	<query>
+		<id>197002</id>
+		<en>baby runny nose chronic</en>
+	</query>
+	<query>
+		<id>197003</id>
+		<en>how to treat a running nose for a baby</en>
+	</query>
+	<query>
+		<id>197004</id>
+		<en>how to treat a running nose for a baby</en>
+	</query>
+	<query>
+		<id>197005</id>
+		<en>baby runny nose treatment</en>
+	</query>
+	<query>
+		<id>197006</id>
+		<en>newborn running nose treatment</en>
+	</query>
+	<query>
+		<id>197007</id>
+		<en>runny nose baby</en>
+	</query>
+
+	<query>
+		<id>198001</id>
+		<en>high protein diet and its human health effects</en>
+	</query>
+	<query>
+		<id>198002</id>
+		<en>high protein diet health risks</en>
+	</query>
+	<query>
+		<id>198003</id>
+		<en>risks of high protein diet</en>
+	</query>
+	<query>
+		<id>198004</id>
+		<en>risks of high protein diet</en>
+	</query>
+	<query>
+		<id>198005</id>
+		<en>high protein diet affects health</en>
+	</query>
+	<query>
+		<id>198006</id>
+		<en>high protein diet pros and cons</en>
+	</query>
+	<query>
+		<id>198007</id>
+		<en>high protein diet health effects</en>
+	</query>
+
+	<query>
+		<id>199001</id>
+		<en>why is there a minimum drinking age and what are the consequences of underage drinking?</en>
+	</query>
+	<query>
+		<id>199002</id>
+		<en>underage drinking risks</en>
+	</query>
+	<query>
+		<id>199003</id>
+		<en>consequences of underage drinking</en>
+	</query>
+	<query>
+		<id>199004</id>
+		<en>consequences of underage drinking</en>
+	</query>
+	<query>
+		<id>199005</id>
+		<en>alcohol drinking underage effects</en>
+	</query>
+	<query>
+		<id>199006</id>
+		<en>effect of underage drinking</en>
+	</query>
+	<query>
+		<id>199007</id>
+		<en>Drinking age laws</en>
+	</query>
+
+	<query>
+		<id>200001</id>
+		<en>feeling of fullness with hiccups with a feeling of a lump in the back of the throat</en>
+	</query>
+	<query>
+		<id>200002</id>
+		<en>swelling back of throat hiccups</en>
+	</query>
+	<query>
+		<id>200003</id>
+		<en>hiccups and lump in back of throat</en>
+	</query>
+	<query>
+		<id>200004</id>
+		<en>hiccups and lump in back of throat</en>
+	</query>
+	<query>
+		<id>200005</id>
+		<en>hiccups after eating lump in throat</en>
+	</query>
+	<query>
+		<id>200006</id>
+		<en>throat lump hiccups</en>
+	</query>
+	<query>
+		<id>200007</id>
+		<en>lump in back of throat after eating</en>
+	</query>
+
+</queries>
