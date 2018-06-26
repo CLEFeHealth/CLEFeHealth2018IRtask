@@ -1,0 +1,6 @@
+MIRACL Team participated in task 3 CHS (Consumer Health Search Task).
+They based their submissions on the Terrier retrieval system 
+and the index provided by CLEFeHealth team.  
+This team consists of a master student, a doctor in computer
+science, a master assistant and a professor. This team is specialist
+ in information retrieval domain. 
