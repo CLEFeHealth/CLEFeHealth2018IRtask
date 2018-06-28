@@ -1,0 +1,21 @@
+CUNI team: CLEF eHealth Consumer Health Search Task 2018
+
+We submit runs for IRTask1 and IRTask4 as follows:
+
+IRTask1:
+Run 1:
+	In this system, we use the Terrier's index that is provided by the organisers without applying any data preprocessing. Terrier's implementation of Dirichlet smoothing language model  is used as the retrieval model with its default parameters.
+Run 2:
+	This system also uses the same retrieval mode as in Run 1, while as an index, we use  Terrier's index that uses Porter-stemming method and English stop-word list.
+Run 3:
+	This system uses Terrier's implementation of TF-IDF model, for the purpose of  comparing between a vector-space model and an LM model (the one that is used in Run 1), we use the same index as in Run 1,
+Run 4: In this run, we use Terrier's implementation of Kullback-Leiber divergence (KLD) for query expansion, with number of top documents is set to 10 and number of terms for expansion is  set to 3.
+	
+IRTask4:
+Run 1: In this run, we translate the queries in the source languages  into English and get 1-best-list translations. Retrieval is conducted using Dirichlet model, and non-stemmed index. The same retrieval settings are used in the following runs.
+
+Run 2: This run uses hypotheses reranking approach, in which each query is translated into English and from the 15-best-list translations,  1-best-list (in terms of IR quality) translation is selected for the retrieval.
+
+Run 3: First we translation the queries into English and the 1-best-list that is produced by the SMT system is chosen as a base query, then this query is expanded by one term using term reranking approach.
+
+Run 4: This run is similar to Run1, the only difference is that  Google Translate is used to translate the queries into English.
