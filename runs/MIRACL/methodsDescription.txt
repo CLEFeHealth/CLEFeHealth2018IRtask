@@ -1,9 +1,0 @@
-MIRACL team submitted 4 runs, two baseline runs 
-with different weighting models (TF-IDF and BM25) and the others runs
-include query expansion using with two different ways, the 
-MeSH ontology (via scopeNotes and via related terms) and the 
-BM25 weighting model.
-baselineClef2018BM25: run 1
-baselineCLEF2018TFIDF :  run 2
-MeshClef2018BM25QexpScopeNote : run 3
-MeshClef2018BM25QexpTerms : run 4
