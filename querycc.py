@@ -6,6 +6,7 @@ import json
 import StringIO
 import gzip
 import os
+from datetime import datetime
 from itertools import islice, chain
 from multiprocessing import Process
 from multiprocessing import Pool
@@ -16,7 +17,7 @@ sys.setdefaultencoding('utf8')
 # parse the command line arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("domain", help="The domain to target ie. youtube.com")
-ap.add_argument("-o","--output_folder", required=True, help="The folder where files would be output")
+ap.add_argument("-o", "--output_folder", default='domains', help="The folder where files would be output. Default: 'domains'")
 ap.add_argument("-p","--parallel_threads", default=0, help="Enable parallelisation and set the number of parallel threads. Default: 0")
 args = vars(ap.parse_args())
 
@@ -164,7 +165,7 @@ def download_page(record, directory):
     return url
 
 def process_domain(domain):
-    directory = output_folder + '/' + domain.strip()
+    directory = os.path.join(output_folder, domain, datetime.now().strftime("%Y%m%d%H%M%S"))
     if not os.path.exists(directory):
         os.makedirs(directory)
     record_list = search_domain(domain)
