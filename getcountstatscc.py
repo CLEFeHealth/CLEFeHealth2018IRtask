@@ -5,6 +5,8 @@ from multiprocessing import Pool
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
+### Path from https://stackoverflow.com/questions/44509423/python-requests-chunkedencodingerrore-requests-iter-lines
+import httplib
 
 # parse the command line arguments
 ap = argparse.ArgumentParser()
@@ -17,8 +19,6 @@ domain = args['domain']
 output_folder = args['output_folder']
 parallel_threads = args['parallel_threads']
 
-### Path from https://stackoverflow.com/questions/44509423/python-requests-chunkedencodingerrore-requests-iter-lines
-import httplib
 
 def patch_http_response_read(func):
     def inner(*args):
