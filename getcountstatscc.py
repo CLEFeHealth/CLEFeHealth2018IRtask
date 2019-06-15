@@ -1,15 +1,6 @@
 import requests
 import argparse
-import time
 import json
-import StringIO
-import gzip
-import pickle
-import os
-#import boto3
-from bs4 import BeautifulSoup
-from itertools import islice, chain
-from multiprocessing import Process
 from multiprocessing import Pool
 import sys
 reload(sys)

@@ -2,14 +2,10 @@ import requests
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 import argparse
-import time
 import json
 import StringIO
 import gzip
-import pickle
 import os
-#import boto3
-from bs4 import BeautifulSoup
 from itertools import islice, chain
 from multiprocessing import Process
 from multiprocessing import Pool
