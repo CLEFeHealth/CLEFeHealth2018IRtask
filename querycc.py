@@ -15,7 +15,7 @@ sys.setdefaultencoding('utf8')
 
 # parse the command line arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-d","--domain", required=True, help="The domain to target ie. youtube.com")
+ap.add_argument("domain", help="The domain to target ie. youtube.com")
 ap.add_argument("-o","--output_folder", required=True, help="The folder where files would be output")
 ap.add_argument("-p","--parallel_threads", default=0, help="Enable parallelisation and set the number of parallel threads. Default: 0")
 args = vars(ap.parse_args())
