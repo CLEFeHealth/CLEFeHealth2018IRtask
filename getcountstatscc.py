@@ -1,33 +1,26 @@
 import requests
 import argparse
-import time
 import json
-import StringIO
-import gzip
-import pickle
 import os
-#import boto3
-from bs4 import BeautifulSoup
-from itertools import islice, chain
-from multiprocessing import Process
 from multiprocessing import Pool
+from datetime import datetime
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
+### Path from https://stackoverflow.com/questions/44509423/python-requests-chunkedencodingerrore-requests-iter-lines
+import httplib
 
 # parse the command line arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-d","--domain", required=True, help="The domain to target ie. youtube.com")
-ap.add_argument("-o","--output_folder", required=True, help="The folder where files would be output")
-ap.add_argument("-p","--parallel_threads", required=True, help="Enable parallelisation and set the number of parallel threads")
+ap.add_argument("domain", help="The domain to target ie. youtube.com")
+ap.add_argument("-o", "--output_folder", default='domains', help="The folder where files would be output. Default: 'domains'")
+ap.add_argument("-p","--parallel_threads", default=0, help="Enable parallelisation and set the number of parallel threads. Default: 0")
 args = vars(ap.parse_args())
 
 domain = args['domain']
 output_folder = args['output_folder']
 parallel_threads = args['parallel_threads']
 
-### Path from https://stackoverflow.com/questions/44509423/python-requests-chunkedencodingerrore-requests-iter-lines
-import httplib
 
 def patch_http_response_read(func):
     def inner(*args):
@@ -62,7 +55,10 @@ def search_domain(domain):
             #print "[*] Added %d results." % len(records)
     #print "[*] Found a total of %d hits." % len(record_list)
     print "{}\t{}".format(domain.strip(), len(record_list))
-    filepath = output_folder + domain.strip()
+    directory = os.path.join(output_folder, domain)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    filepath = os.path.join(directory, datetime.now().strftime("%Y%m%d%H%M%S"))
     file = open(filepath, "w")
     file.write("{}\t{}".format(domain.strip(), len(record_list)))
     file.close()
